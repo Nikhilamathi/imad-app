@@ -28,8 +28,7 @@ function createTemplate (data) {
     var heading=data.heading;
     var date=data.date;
     var content=data.content;
-    var htmltemplate=
-      `
+    var htmltemplate=`
       <html>
         <head>
             <title>
@@ -56,7 +55,7 @@ function createTemplate (data) {
             </div>
         </body>
     </html>`;
-    return htmlTemplate;
+    return htmltemplate;
     }
 
 app.use(morgan('combined'));
