@@ -3,6 +3,9 @@ var morgan = require('morgan');
 var path = require('path');
 
 var app = express();
+var content={
+ title:'Article one Nikhilamathi !'   
+};
 app.use(morgan('combined'));
 
 app.get('/', function (req, res) {
