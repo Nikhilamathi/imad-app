@@ -5,9 +5,9 @@ var path = require('path');
 var app = express();
 var articles={ 
     'article-one':{
- title:'Article one Nikhilamathi !',   
- heading:'Article one',
- date:'sep 6,2017',
+ title: 'Article one Nikhilamathi !' ,   
+ heading: 'Article one',
+ date: 'sep 6,2017',
  content:`<p>
                     This is the first content of Article one
                 </p>
