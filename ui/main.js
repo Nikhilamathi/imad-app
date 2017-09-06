@@ -14,8 +14,7 @@
     //img.style.marginLeft= '100px';
 //}
 button.onclick = function (){
-    
-var button = document.getElementById('counter');
+
 
 //make request to counter endpoint 
 var request = new XMLHttpRequest();
