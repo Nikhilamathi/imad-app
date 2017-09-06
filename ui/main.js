@@ -37,7 +37,7 @@ request.onreadystatechange=function()
 };
   //make request
   
- request.open("GET",'http://snikhilamathi.imad.hasura-app.io/counter',true);
+ request.open('GET','http://snikhilamathi.imad.hasura-app.io/counter',true);
  request.send(null);
 };
 
